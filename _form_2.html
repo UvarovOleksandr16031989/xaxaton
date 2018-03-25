@@ -9,32 +9,27 @@
 	maximum-scale=1.0,
 	user-scalable=no">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mode.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 <body>
+ <div class="wrap">
 <header class="page--header">
 	<figure class="page--header__logo">
 		<img src="images/header/logo.png">
 	</figure>
 	<div class="page--header__user">
-		<figure class="page--header__avatar">
-	   	 	<img src="images/header/avatar.png">
+		<figure class="page--header__avatar page1--header__avatar">
+	   	 	<img src="images/header/icon-header-avt.png">
 		</figure>
-		    <div class="page--header__content" >
-		        <p class="page--header__content__text">
-	   		         Вітаємо, Оксано!
-		        </p> 
-		        <a class="page--header__link">
-	  	        	Вийти з кабінету
-		        </a>
-		    </div>
-		<figure class="page--header__icon">
-	   	 	<img src="images/header/icon_notification.png">
-		</figure>
+		<div class="page--header__content" >
+		    <p class="page--header__content__text">Вітаємо, Гість!</p> 
+		    <a class="page--header__link">Авторизуватися</a>
 	</div>
-    </header>
-</body>
-</html>
+		<p class="page--header__icon page1--header__icon">&#128276</p>
+	</div>
+	
+</header>
 <nav class="sidenav">
 
 	<a href="#" class="sidenav__link">
@@ -159,8 +154,8 @@
 	<h2 class="login-form__title">Авторизація</h2>
 	<p class="login-form-1__status">Нажаль, ми не можемо ідентифікувати цей номер.</p>
 	<form class="login-form__form login-form__form-1">
-		<button class="login-form__form--button__link">ІДЕНТИФІКУВАТИ МЕНЕ
-		</button>
+		<a href="_form_4.html" class="login-form__form--button__link">ІДЕНТИФІКУВАТИ МЕНЕ
+		</a>
 	</form>
 	<a class="login-form-1__about" href="#">Я ФІНАНСОВИЙ КОНСУЛЬТАНТ</a>
 	<p class="login-form__description login-form__description1-1">Користуватися сервісом мають можливість лише Страхувальники-фізичні особи</p>
@@ -217,6 +212,8 @@
         </div>
     </footer>
 
-
+</div>
+</body>
+</html>
 
 

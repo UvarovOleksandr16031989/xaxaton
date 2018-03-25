@@ -6,6 +6,10 @@
 	text-align: center;
 	
 }
+.login-form__error{
+	position:relative;
+	z-index: -1;
+}
 
 .login-form__form{
 	padding-top: 2%;
