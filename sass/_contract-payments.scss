@@ -1,8 +1,10 @@
 .contract__tabs {
   line-height: 120px;
+  margin-left: 85px;
 }
-
-
+.contract__head{
+  margin-left: 85px;
+}
 
 th:first-child,
 td:first-child {
@@ -10,7 +12,10 @@ td:first-child {
 	text-align: center;
 	// table-layout: auto;
 }
-
+.payments__table{
+	margin-left: 85px;
+	weight: 93%;
+}
 th, td {
 	width: 15%;
 }

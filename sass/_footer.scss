@@ -1,7 +1,7 @@
 .page__footer--block {
     border-top: 2px solid #eeeeee;
-	position: relative;
-    bottom: -105px;
+	position: absolute;
+    top: 900px;
     width: 100%;
 	z-index: -1;
 }
