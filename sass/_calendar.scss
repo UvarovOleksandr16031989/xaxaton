@@ -1,6 +1,7 @@
 .calendar-table{
   text-align: center;
-
+  width: 93%;
+  margin-left: 85px;
 }
 .calendar{
   padding-top: 38px;
@@ -22,17 +23,18 @@
   max-width: 77px;
 }
 .calendar__table__tr_td-content{
+  white-space: nowrap;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   border-radius: 22px;
   background-color: #f07317;
-  padding: 15px 159px;
+  padding: 15px 39%;
 
 }
 .calendar__table__tr_td_content-with_img{
-  padding: 15px 150px;
+  padding: 15px 39%;
 }
 .calendar__table__tr_td-bg_green{
   background-color: #1d9e3b;
